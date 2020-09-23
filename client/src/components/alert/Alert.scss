@@ -1,0 +1,34 @@
+@import "src/scss/variables";
+
+.alert {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 80%;
+    max-width: 550px;
+    height: auto;
+    background-color: $black-soft ;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: $radius;
+    font-size: $text-size;
+    color: $white;
+    text-align: center;
+  }
+
+  &__button {
+    margin-top: 50px;
+    display: block;
+    padding: 10px 25px;
+    color: $black-soft;
+    background-color: $main-color;
+    border-radius: $radius;
+    font-family: $font-medium;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $main-color-darker;
+    }
+  }
+}

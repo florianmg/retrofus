@@ -1,0 +1,19 @@
+@import "scss/variables";
+
+.App {
+  min-height: 100vh;
+  font-family: $font-medium;
+  background-image: url('images/wlp.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .footer {
+    text-align: center;
+    font-family: $font-medium;
+    color: $white;
+    font-size: $text-size;
+    padding: 25px 0;
+  }
+}
+*  {font-size: $base-size}

@@ -1,0 +1,42 @@
+@import "src/scss/variables";
+
+.card {
+  width: 320px;
+  background-color: $black;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  img {
+    width: 320px;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  &__content {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      background-color: $main-color;
+      color: $black;
+      padding: 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      display: block;
+      font-family: $font-bold;
+      font-size: 19px;
+    }
+
+    &__title {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 21px;
+    }
+  }
+
+}

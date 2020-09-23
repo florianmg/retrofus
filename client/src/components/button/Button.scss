@@ -1,0 +1,15 @@
+@import "src/scss/variables";
+
+button {
+  width: 100%;
+  font-size: 21px;
+  background-color: $main-color;
+  height: 45px;
+  color: $black-soft;
+  font-family: $font-bold;
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}

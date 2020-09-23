@@ -1,0 +1,27 @@
+@import "src/scss/variables";
+
+.select {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  &__label {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  &__selector {
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 45px;
+    padding-left: 15px;
+    background-color: $black;
+    color: white;
+    font-size: 19px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}

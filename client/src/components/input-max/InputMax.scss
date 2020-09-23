@@ -1,0 +1,23 @@
+@import "src/scss/variables";
+
+.input-max {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: $text-size;
+  &__label {
+    margin-bottom: 10px;
+  }
+  &__field {
+    font-size: $text-size;
+    border: none;
+    border-radius: $radius;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: $font-regular;
+    background-color: $black;
+    color: $white;
+    resize: none;
+  }
+}

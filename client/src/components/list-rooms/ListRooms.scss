@@ -1,0 +1,84 @@
+@import "src/scss/variables";
+
+
+
+
+.list-rooms {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  &__title {
+    font-size: $title-size;
+    font-family: $font-medium;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .input { font-size: $text-size;}
+  .container {
+    margin-top: 50px;
+    background-color: $black-soft;
+    border-radius: $radius;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 90%;
+    max-width: 1320px;
+    color: white;
+    &__table {
+      width: 100%;
+      text-align: left;
+      border-collapse:separate;
+      border-spacing:0 15px;
+      thead tr { background-color: $black;}
+      thead td { background-color: $black; }
+      tr {
+        background-color: $grey;
+
+        td {
+          padding: 25px 25px;
+          box-sizing: border-box;
+          &:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+          }
+          &:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+        }
+      }
+
+      td.btn a {
+        background-color: $main-color;
+        color: $black;
+        padding: 15px;
+        border-radius: 10px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: $main-color-darker;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 590px) {
+    .container {
+      padding: 25px;
+      &__table {
+        tr {
+          td {
+            padding: 20px 5px;
+          }
+        }
+      }
+    }
+
+  }
+
+  @media(max-width: 460px) {
+    .m-remove {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "fonts";
+
+
+
+/**
+  FONTS
+ */
+$font-black       : 'Inter Black';
+$font-bold        : 'Inter Bold';
+$font-extra-black : 'Inter ExtraBlack';
+$font-light       : 'Inter Light';
+$font-medium      : 'Inter Medium';
+$font-regular     : 'Inter Regular';
+$font-semi-bold   : 'Inter Semi Bold';
+$font-Thin        : 'Inter Thin';
+
+/**
+  COLORS
+ */
+$black            : #383838;
+$black-soft       : #4a4a4a;
+$grey             : #626262;
+$main-color       : #f7da8f;
+$main-color-darker: #dec37d;
+$white            : #eae6e6;
+
+/**
+  GENERALS
+ */
+// height
+$height-sin-nav-bar: calc(100vh - 70px);
+
+// fonts
+$base-size     : 16px;
+$title-size    : 2rem;
+$sub-title-size: 1rem;
+$text-size     : 1.4rem;
+
+
+// border and radius
+$radius: 10px;

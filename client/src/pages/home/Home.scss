@@ -1,0 +1,28 @@
+@import "src/scss/variables";
+
+.home {
+  min-height: $height-sin-nav-bar;
+  display: flex;
+  justify-content: center;
+  .container {
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    max-width: 1320px;
+
+    &__title {
+      font-size: $title-size;
+      font-family: $font-bold;
+      color: $black-soft;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 50px 0;
+    }
+
+    &__card-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+}
